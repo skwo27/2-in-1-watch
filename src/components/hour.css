@@ -1,0 +1,20 @@
+.Hour{
+    margin: auto auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+.Hour-container {
+    /*border: 1px solid;*/
+    text-align: center;
+    width: 30px;
+}
+.a {
+    background: #ffffff;
+}
+.b {
+    color: #ffffff;
+    opacity: 0;
+}
