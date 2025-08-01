@@ -2,6 +2,7 @@ import './App.css';
 import Sec from "./components/sec";
 import Min from "./components/min";
 import Hour from "./components/hour";
+import Point from "./components/point";
 import React, {useEffect, useState} from "react";
 
 
@@ -24,6 +25,7 @@ function App() {
           {/*<p>{h}</p>*/}
           {/*<p>{m}</p>*/}
           {/*<p>{s}</p>*/}
+          <Point></Point>
           <Hour h = {h}></Hour>
           <Min m = {m}></Min>
           <Sec s = {s}></Sec>

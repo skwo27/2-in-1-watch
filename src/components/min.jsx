@@ -11,7 +11,7 @@ function Min(props) {
                 <p className="a">{a}</p>
                 <p className="a">{a}</p>
                 <p className="a">{a}</p>
-                <p className="a">{a}</p>
+                <p className="b">{b}</p>
                 <p className="b">{b}</p>
                 <p className="b">{b}</p>
                 <p className="b">{b}</p>

@@ -13,8 +13,6 @@ function Sec(props) {
                 <p>{a}</p>
                 <p>{a}</p>
                 <p>{a}</p>
-                <p>{a}</p>
-                <p>{a}</p>
                 <p className="b">{b}</p>
                 <p className="b">{b}</p>
                 <p className="b">{b}</p>
@@ -23,7 +21,7 @@ function Sec(props) {
                 <p className="b">{b}</p>
                 <p className="b">{b}</p>
                 <p className="b">{b}</p>
-            </div>
+              </div>
         </div>
     )
 }
