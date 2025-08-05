@@ -13,7 +13,6 @@ function Hour(props) {
                 <p className="b">{b}</p>
                 <p className="b">{b}</p>
                 <p className="b">{b}</p>
-
             </div>
         </div>
     )
