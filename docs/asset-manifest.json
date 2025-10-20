@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/2-in-1-watch/static/css/main.6179cb2d.css",
+    "main.js": "/2-in-1-watch/static/js/main.a0fe768f.js",
+    "static/js/453.5c8458f8.chunk.js": "/2-in-1-watch/static/js/453.5c8458f8.chunk.js",
+    "index.html": "/2-in-1-watch/index.html",
+    "main.6179cb2d.css.map": "/2-in-1-watch/static/css/main.6179cb2d.css.map",
+    "main.a0fe768f.js.map": "/2-in-1-watch/static/js/main.a0fe768f.js.map",
+    "453.5c8458f8.chunk.js.map": "/2-in-1-watch/static/js/453.5c8458f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6179cb2d.css",
+    "static/js/main.a0fe768f.js"
+  ]
+}
