@@ -1,9 +1,7 @@
 import  './App.css';
-import Sec from "./components/sec";
-import Min from "./components/min";
-import Hour from "./components/hour";
 import Point from "./components/point";
 import React, {useEffect, useState} from "react";
+import Pointer from "./components/pointer/pointer";
 
 
 function App() {
@@ -22,13 +20,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          {/*<p>{h}</p>*/}
-          {/*<p>{m}</p>*/}
-          {/*<p>{s}</p>*/}
           <Point></Point>
-          <Hour h = {h}></Hour>
-          <Min m = {m}></Min>
-          <Sec s = {s}></Sec>
+          <Pointer e = {[h,3,30,3]}></Pointer>
+          <Pointer e = {[m,2,6,5]}></Pointer>
+          <Pointer e = {[s,1,6,7]}></Pointer>
       </header>
     </div>
   );
