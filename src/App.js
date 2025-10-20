@@ -1,4 +1,4 @@
-import './App.css';
+import  './App.css';
 import Sec from "./components/sec";
 import Min from "./components/min";
 import Hour from "./components/hour";
