@@ -12,7 +12,7 @@ function App() {
         return () => clearInterval(interval);
     }, [])
 
-    let h = a.getHours();
+    let h = a.getHours()%12;
     let m = a.getMinutes();
     let s = a.getSeconds();
 
