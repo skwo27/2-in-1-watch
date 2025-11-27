@@ -1,15 +1,15 @@
 import './pointer.css';
 
-function Pointer(props) {
+function Pointer(props: { e: number[]; }) {
     const e = props.e
     
-    const a = e[0]
-    const b = e[1]
-    const d = e[2]
-    const l = e[3]
+    const a: number = e[0]
+    const b: number = e[1]
+    const d: number = e[2]
+    const l: number = e[3]
     
-    const c = a*d //d = 30 or 6
-    const text = Array(l).fill(a)
+    const c: number = a*d //d = 30 or 6
+    const text: string[] = Array(l).fill(a)
     const dummyText = Array(l+1).fill("A")
     
     return (
